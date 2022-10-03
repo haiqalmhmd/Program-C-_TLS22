@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float p;
+    float l;
+    float t;
+    float v;
+    float L;
+   
+    cout << "Program Menghitung Volume dan Luas Permukaan Balok";
+    cout << "\n            Menggunakan Program C++";
+    
+    cout << "\n\nMasukkan nilai panjang : ";
+    cin  >> p;
+    
+    cout << "Masukkan nilai lebar : ";
+    cin  >> l;
+    
+    cout << "Masukkan nilai tinggi :";
+    cin  >> t;
+    
+    v = (p*l*t);
+    L = 2*(p*l+p*t+l*t);
+    
+    cout << "\nVolume Balok adalah "; 
+    cout << v; 
+    cout << " cm3.";
+    
+    cout << "\nLuas Permukaan Balok adalah "; 
+    cout << L; 
+    cout << " cm2.";
+    
+    return 0;
+}
